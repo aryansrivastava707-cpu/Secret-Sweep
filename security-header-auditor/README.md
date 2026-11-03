@@ -39,15 +39,19 @@ Review HTTP response headers against a focused set of browser security recommend
 
 Python 3.10 or newer. No third-party packages are required. Internet access is needed only to audit a live URL.
 
-## 🧪 Usage
-
 ```bash
 python -m unittest -v
-python audit.py https://your-authorized-site.example
-
-# Optional JSON report
-python audit.py https://your-authorized-site.example --json report.json
 ```
+
+## 🧪 Usage
+
+Audit a site you own or have permission to assess:
+
+```bash
+python audit.py https://your-authorized-site.example
+```
+
+To save JSON output, add `--json report.json`.
 
 ## ✅ Tests
 

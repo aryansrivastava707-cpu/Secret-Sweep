@@ -37,16 +37,21 @@ Build a small static site from Markdown notes, with escaped HTML and a simple lo
 
 ## 🚀 Quick Start
 
-Node.js 20 or newer. No package installation is needed.
-
-## 🧪 Usage
+Node.js 20 or newer. No package installation is required.
 
 ```bash
 npm test
-npm run build -- --input content --output site
-
-# Open site/index.html in a browser.
 ```
+
+## 🧪 Usage
+
+Build the example Markdown content into a static site:
+
+```bash
+npm run build -- --input content --output site
+```
+
+Open `site/index.html` in a browser.
 
 ## ✅ Tests
 

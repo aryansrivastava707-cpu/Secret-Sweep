@@ -37,14 +37,21 @@ Control a small irrigation pump with soil-moisture hysteresis and a safe respons
 
 ## 🚀 Quick Start
 
-Python 3.10+ for desktop tests and simulation. MicroPython on an ESP32 for device firmware.
-
-## 🧪 Usage
+Python 3.10+ for desktop tests and simulation. MicroPython is needed on an ESP32.
 
 ```bash
 python -m unittest -v
+```
+
+## 🧪 Usage
+
+Run the desktop simulator:
+
+```bash
 python simulator.py
 ```
+
+For device setup, see [hardware notes](docs/HARDWARE.md).
 
 ## ✅ Tests
 

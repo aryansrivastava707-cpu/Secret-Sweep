@@ -37,16 +37,21 @@ Estimate a bin fill level from ultrasonic distance readings, filtering isolated 
 
 ## 🚀 Quick Start
 
-Python 3.10+ for tests and desktop simulation. MicroPython is needed on an ESP32.
-
-## 🧪 Usage
+Python 3.10+ for the desktop test suite; no third-party packages are needed.
 
 ```bash
 python -m unittest -v
-python simulator.py
-
-# Copy firmware/logic.py and firmware/main.py to the ESP32 for device use.
 ```
+
+## 🧪 Usage
+
+Run the desktop simulation:
+
+```bash
+python simulator.py
+```
+
+For ESP32 setup, copy `firmware/logic.py` and `firmware/main.py` to the device and follow [hardware notes](docs/HARDWARE.md).
 
 ## ✅ Tests
 

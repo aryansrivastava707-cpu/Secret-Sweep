@@ -37,14 +37,21 @@ Estimate power and cumulative energy from pulses emitted by an isolated low-volt
 
 ## 🚀 Quick Start
 
-Python 3.10+ for tests and simulation. MicroPython on an ESP32 for device firmware.
-
-## 🧪 Usage
+Python 3.10+ for desktop tests and simulation. MicroPython is needed on an ESP32.
 
 ```bash
 python -m unittest -v
+```
+
+## 🧪 Usage
+
+Run the desktop simulator:
+
+```bash
 python simulator.py
 ```
+
+For device setup, see [hardware notes](docs/HARDWARE.md).
 
 ## ✅ Tests
 

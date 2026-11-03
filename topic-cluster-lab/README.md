@@ -39,10 +39,15 @@ Group a folder of text documents with a compact TF-IDF and k-means implementatio
 
 Python 3.10 or newer. No third-party packages are required.
 
-## 🧪 Usage
-
 ```bash
 python -m unittest -v
+```
+
+## 🧪 Usage
+
+Cluster the bundled text files and write a JSON summary:
+
+```bash
 python cluster.py data/articles --k 2 --out clusters.json
 ```
 

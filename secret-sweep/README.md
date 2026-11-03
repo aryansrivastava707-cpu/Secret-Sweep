@@ -39,15 +39,19 @@ Scan a local project for common credential patterns and report locations with se
 
 Python 3.10 or newer. No third-party packages are required.
 
-## 🧪 Usage
-
 ```bash
 python -m unittest -v
-python scan.py path/to/project --out secret-findings.json
-
-# Optional: copy .secret-sweep-allow.example.json to
-# .secret-sweep-allow.json and add approved fingerprints.
 ```
+
+## 🧪 Usage
+
+Scan a project directory and write a redacted JSON report:
+
+```bash
+python scan.py path/to/project --out secret-findings.json
+```
+
+The command exits with status 1 when it finds possible secrets. See `.secret-sweep-allow.example.json` for the allowlist format.
 
 ## ✅ Tests
 

@@ -37,16 +37,21 @@ Monitor temperature and humidity against configurable limits and raise an alarm 
 
 ## 🚀 Quick Start
 
-Python 3.10+ for desktop tests and simulation. MicroPython on an ESP32 for device firmware.
-
-## 🧪 Usage
+Python 3.10+ for desktop tests and simulation. MicroPython is needed on an ESP32.
 
 ```bash
 python -m unittest -v
-python simulator.py
-
-# For device setup, see docs/HARDWARE.md.
 ```
+
+## 🧪 Usage
+
+Run the simulator:
+
+```bash
+python simulator.py
+```
+
+For device wiring and setup, see [hardware notes](docs/HARDWARE.md).
 
 ## ✅ Tests
 

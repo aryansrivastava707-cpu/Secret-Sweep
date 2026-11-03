@@ -39,10 +39,15 @@ Fit a small logistic-regression classifier and inspect how each feature contribu
 
 Python 3.10 or newer. No third-party packages are required.
 
-## 🧪 Usage
-
 ```bash
 python -m unittest -v
+```
+
+## 🧪 Usage
+
+Fit the model using the bundled synthetic data and print the report:
+
+```bash
 python cli.py data/synthetic.csv --epochs 5000
 ```
 
