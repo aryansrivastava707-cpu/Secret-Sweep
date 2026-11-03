@@ -1,0 +1,1 @@
+{"name":"markdown-studio","private":true,"type":"module","scripts":{"build":"node src/cli.mjs","test":"node --test"},"engines":{"node":">=20"}}

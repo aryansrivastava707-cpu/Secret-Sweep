@@ -1,0 +1,1 @@
+fetch('search-index.json').then(r=>r.json()).then(d=>{const q=document.querySelector('#search');if(!q)return;q.addEventListener('input',()=>document.querySelectorAll('main li').forEach(li=>li.hidden=!li.textContent.toLowerCase().includes(q.value.toLowerCase())))})
